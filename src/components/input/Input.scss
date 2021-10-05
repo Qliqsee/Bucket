@@ -1,0 +1,31 @@
+.input {
+  width: 80%;
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 10px 0;
+
+  input {
+    background-color: none;
+    margin-left: 12px;
+    border: none;
+    flex: 1;
+    height: 100%;
+    text-transform: capitalize;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    margin: 0 8px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+  }
+}

@@ -1,0 +1,16 @@
+.todo__item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: #fff;
+  margin: 6px 4px;
+  border-radius: 4px;
+  padding: 5px 0;
+  &__paragraph {
+    flex: 1;
+    padding: 0 1px;
+  }
+  &__done {
+    text-decoration: line-through;
+  }
+}
