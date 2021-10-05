@@ -22,6 +22,7 @@ const Input = () => {
       <input
         type='text'
         placeholder='Add Todo...'
+        required
         value={value}
         onChange={(e) => {
           setValue(e.target.value);
